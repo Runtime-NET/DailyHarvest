@@ -1,0 +1,673 @@
+DEBUG 2020-08-03 00:26:53,578 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-08-03 00:26:53,599 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2020-08-03 00:26:53,835 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.Web.vinoWebModule, vino.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:26:53,837 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.vinoDataModule, vino.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:26:53,837 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:26:53,838 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:26:53,838 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:26:53,838 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:26:53,838 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:26:53,839 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:26:53,839 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.vinoCoreModule, vino.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:26:53,839 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.vinoApplicationModule, vino.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:26:53,839 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:26:53,839 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.Api.vinoWebApiModule, vino.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:26:53,839 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:26:53,839 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:26:53,839 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:26:53,840 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:26:53,840 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:26:53,844 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2020-08-03 00:26:54,639 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 00:26:54,639 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 00:26:54,639 [1    ] o.Configuration.LanguageManagementConfig - Converted vino (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 00:26:54,639 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 00:26:55,202 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: vino.EntityFramework.vinoDbContext, vino.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:27:15,687 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-08-03 00:27:16,223 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-08-03 00:27:16,252 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-08-03 00:27:16,264 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: vino
+DEBUG 2020-08-03 00:27:16,274 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-08-03 00:27:16,526 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-03 00:27:16,594 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2020-08-03 00:27:16,594 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-08-03 00:27:16,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-08-03 00:27:16,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Users.Dto.CreateUserDto
+DEBUG 2020-08-03 00:27:16,601 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Users.Dto.UpdateUserDto
+DEBUG 2020-08-03 00:27:16,601 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Users.Dto.UserDto
+DEBUG 2020-08-03 00:27:16,601 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Roles.Dto.PermissionDto
+DEBUG 2020-08-03 00:27:16,601 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-08-03 00:27:16,601 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.MultiTenancy.Dto.EditTenantDto
+DEBUG 2020-08-03 00:27:16,601 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.MultiTenancy.Dto.TenantDto
+DEBUG 2020-08-03 00:27:16,602 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Web.Models.Account.TenantChangeViewModel
+DEBUG 2020-08-03 00:27:16,602 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2020-08-03 00:27:20,084 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2020-08-03 00:27:20,085 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2020-08-03 00:27:20,086 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2020-08-03 00:27:20,087 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2020-08-03 00:27:20,088 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2020-08-03 00:27:20,089 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2020-08-03 00:27:36,613 [5    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2020-08-03 00:29:18,895 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a669e862-b031-4bc2-9d93-733618c9f5a2","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-03T00:29:18.8888182+05:30","Properties":{}}
+DEBUG 2020-08-03 00:29:18,949 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a669e862-b031-4bc2-9d93-733618c9f5a2
+DEBUG 2020-08-03 00:48:37,686 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-08-03 00:48:37,702 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2020-08-03 00:48:37,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.Web.vinoWebModule, vino.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:48:37,711 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.vinoDataModule, vino.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:48:37,711 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:48:37,711 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:48:37,711 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:48:37,712 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:48:37,712 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:48:37,712 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:48:37,712 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.vinoCoreModule, vino.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:48:37,712 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.vinoApplicationModule, vino.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:48:37,712 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:48:37,713 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.Api.vinoWebApiModule, vino.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:48:37,713 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:48:37,713 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:48:37,713 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:48:37,713 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:48:37,713 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:48:37,718 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2020-08-03 00:48:38,008 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 00:48:38,008 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 00:48:38,008 [1    ] o.Configuration.LanguageManagementConfig - Converted vino (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 00:48:38,008 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 00:48:38,482 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: vino.EntityFramework.vinoDbContext, vino.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:48:41,845 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-08-03 00:48:41,908 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-08-03 00:48:41,928 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-08-03 00:48:41,935 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: vino
+DEBUG 2020-08-03 00:48:41,944 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-08-03 00:48:42,148 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-03 00:48:42,221 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2020-08-03 00:48:42,221 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-08-03 00:48:42,228 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-08-03 00:48:42,229 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Users.Dto.CreateUserDto
+DEBUG 2020-08-03 00:48:42,229 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Users.Dto.UpdateUserDto
+DEBUG 2020-08-03 00:48:42,229 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Users.Dto.UserDto
+DEBUG 2020-08-03 00:48:42,229 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Roles.Dto.PermissionDto
+DEBUG 2020-08-03 00:48:42,229 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-08-03 00:48:42,229 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.MultiTenancy.Dto.EditTenantDto
+DEBUG 2020-08-03 00:48:42,230 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.MultiTenancy.Dto.TenantDto
+DEBUG 2020-08-03 00:48:42,230 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Web.Models.Account.TenantChangeViewModel
+DEBUG 2020-08-03 00:48:42,230 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2020-08-03 00:48:45,134 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2020-08-03 00:48:45,135 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2020-08-03 00:48:45,136 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2020-08-03 00:48:45,138 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2020-08-03 00:48:45,139 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2020-08-03 00:48:45,140 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2020-08-03 00:48:58,368 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Product' in localization source 'vino'!
+DEBUG 2020-08-03 00:49:02,807 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2348f54b-0450-4c8a-8200-d95f6027195b","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-03T00:49:02.8009688+05:30","Properties":{}}
+DEBUG 2020-08-03 00:49:02,870 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 2348f54b-0450-4c8a-8200-d95f6027195b
+DEBUG 2020-08-03 00:49:50,567 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 2348f54b-0450-4c8a-8200-d95f6027195b
+WARN  2020-08-03 00:49:51,972 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Product' in localization source 'vino'!
+DEBUG 2020-08-03 00:49:53,004 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"accb2fc4-4753-4645-99d9-b2e6bc2e1c80","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-03T00:49:53.0043667+05:30","Properties":{}}
+DEBUG 2020-08-03 00:49:53,027 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: accb2fc4-4753-4645-99d9-b2e6bc2e1c80
+ERROR 2020-08-03 00:49:54,987 [14   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+ERROR 2020-08-03 00:50:17,260 [10   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+DEBUG 2020-08-03 00:52:36,429 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-08-03 00:52:36,443 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2020-08-03 00:52:36,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.Web.vinoWebModule, vino.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:52:36,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.vinoDataModule, vino.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:52:36,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:52:36,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:52:36,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:52:36,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:52:36,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:52:36,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:52:36,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.vinoCoreModule, vino.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:52:36,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.vinoApplicationModule, vino.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:52:36,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:52:36,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.Api.vinoWebApiModule, vino.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:52:36,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:52:36,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:52:36,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:52:36,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:52:36,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:52:36,458 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2020-08-03 00:52:36,752 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 00:52:36,752 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 00:52:36,752 [1    ] o.Configuration.LanguageManagementConfig - Converted vino (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 00:52:36,752 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 00:52:37,243 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: vino.EntityFramework.vinoDbContext, vino.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:52:40,353 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-08-03 00:52:40,430 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-08-03 00:52:40,451 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-08-03 00:52:40,461 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: vino
+DEBUG 2020-08-03 00:52:40,470 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-08-03 00:52:40,651 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-03 00:52:40,717 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2020-08-03 00:52:40,717 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-08-03 00:52:40,723 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-08-03 00:52:40,724 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Users.Dto.CreateUserDto
+DEBUG 2020-08-03 00:52:40,724 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Users.Dto.UpdateUserDto
+DEBUG 2020-08-03 00:52:40,724 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Users.Dto.UserDto
+DEBUG 2020-08-03 00:52:40,724 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Roles.Dto.PermissionDto
+DEBUG 2020-08-03 00:52:40,724 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-08-03 00:52:40,724 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.MultiTenancy.Dto.EditTenantDto
+DEBUG 2020-08-03 00:52:40,724 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.MultiTenancy.Dto.TenantDto
+DEBUG 2020-08-03 00:52:40,725 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Web.Models.Account.TenantChangeViewModel
+DEBUG 2020-08-03 00:52:40,725 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2020-08-03 00:52:44,063 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2020-08-03 00:52:44,065 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2020-08-03 00:52:44,066 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2020-08-03 00:52:44,067 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2020-08-03 00:52:44,068 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2020-08-03 00:52:44,069 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2020-08-03 00:52:59,477 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9e494ae0-b8cc-4f3a-8077-699f16f85425","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-03T00:52:59.4699134+05:30","Properties":{}}
+DEBUG 2020-08-03 00:52:59,524 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9e494ae0-b8cc-4f3a-8077-699f16f85425
+ERROR 2020-08-03 00:53:01,902 [5    ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+DEBUG 2020-08-03 00:53:22,056 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"41f1b7c7-d05a-4da0-a667-294ac36afed9","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-03T00:53:22.0566468+05:30","Properties":{}}
+DEBUG 2020-08-03 00:53:22,066 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 41f1b7c7-d05a-4da0-a667-294ac36afed9
+DEBUG 2020-08-03 00:53:49,174 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9e494ae0-b8cc-4f3a-8077-699f16f85425
+DEBUG 2020-08-03 00:54:40,527 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"95f8bede-c8f6-469d-8bb6-c19d42a8fc78","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-03T00:54:40.5275346+05:30","Properties":{}}
+DEBUG 2020-08-03 00:54:40,536 [34   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 95f8bede-c8f6-469d-8bb6-c19d42a8fc78
+ERROR 2020-08-03 00:54:45,082 [42   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+ERROR 2020-08-03 00:54:52,415 [7    ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+ERROR 2020-08-03 00:54:59,363 [22   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+WARN  2020-08-03 00:55:06,597 [22   ] naries.DictionaryBasedLocalizationSource - Can not find 'Refresh' in localization source 'vino'!
+DEBUG 2020-08-03 00:55:09,216 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 41f1b7c7-d05a-4da0-a667-294ac36afed9
+ERROR 2020-08-03 00:55:09,890 [42   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+WARN  2020-08-03 00:55:57,958 [36   ] naries.DictionaryBasedLocalizationSource - Can not find 'Refresh' in localization source 'vino'!
+DEBUG 2020-08-03 00:55:58,097 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"19fa622b-a6f3-4048-ab18-8f3a9289eca2","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-03T00:55:58.0970524+05:30","Properties":{}}
+DEBUG 2020-08-03 00:55:58,109 [45   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 19fa622b-a6f3-4048-ab18-8f3a9289eca2
+ERROR 2020-08-03 00:55:59,567 [7    ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+DEBUG 2020-08-03 00:56:29,258 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 95f8bede-c8f6-469d-8bb6-c19d42a8fc78
+DEBUG 2020-08-03 00:58:27,142 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-08-03 00:58:27,159 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2020-08-03 00:58:27,169 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.Web.vinoWebModule, vino.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:58:27,172 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.vinoDataModule, vino.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:58:27,172 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:58:27,172 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:58:27,173 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:58:27,173 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:58:27,173 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:58:27,173 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:58:27,174 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.vinoCoreModule, vino.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:58:27,174 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.vinoApplicationModule, vino.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:58:27,174 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:58:27,174 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.Api.vinoWebApiModule, vino.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:58:27,175 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:58:27,175 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:58:27,175 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:58:27,175 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:58:27,175 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:58:27,179 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2020-08-03 00:58:27,589 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 00:58:27,589 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 00:58:27,589 [1    ] o.Configuration.LanguageManagementConfig - Converted vino (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 00:58:27,589 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 00:58:28,183 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: vino.EntityFramework.vinoDbContext, vino.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 00:58:32,030 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-08-03 00:58:32,099 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-08-03 00:58:32,124 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-08-03 00:58:32,134 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: vino
+DEBUG 2020-08-03 00:58:32,144 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-08-03 00:58:32,347 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-03 00:58:32,414 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2020-08-03 00:58:32,414 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-08-03 00:58:32,420 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-08-03 00:58:32,421 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Users.Dto.CreateUserDto
+DEBUG 2020-08-03 00:58:32,421 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Users.Dto.UpdateUserDto
+DEBUG 2020-08-03 00:58:32,421 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Users.Dto.UserDto
+DEBUG 2020-08-03 00:58:32,421 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Roles.Dto.PermissionDto
+DEBUG 2020-08-03 00:58:32,421 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-08-03 00:58:32,422 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.MultiTenancy.Dto.EditTenantDto
+DEBUG 2020-08-03 00:58:32,422 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.MultiTenancy.Dto.TenantDto
+DEBUG 2020-08-03 00:58:32,422 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Web.Models.Account.TenantChangeViewModel
+DEBUG 2020-08-03 00:58:32,422 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2020-08-03 00:58:36,068 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2020-08-03 00:58:36,070 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2020-08-03 00:58:36,071 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2020-08-03 00:58:36,072 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2020-08-03 00:58:36,073 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2020-08-03 00:58:36,074 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2020-08-03 00:58:50,325 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c979eff0-4968-4714-9d43-6e5fe9354d41","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-03T00:58:50.319608+05:30","Properties":{}}
+DEBUG 2020-08-03 00:58:50,370 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c979eff0-4968-4714-9d43-6e5fe9354d41
+ERROR 2020-08-03 00:58:53,885 [9    ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+ERROR 2020-08-03 00:59:01,410 [10   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+ERROR 2020-08-03 00:59:26,977 [10   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+WARN  2020-08-03 00:59:38,781 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Refresh' in localization source 'vino'!
+WARN  2020-08-03 00:59:39,292 [11   ] ity.AntiForgery.AbpMvcAntiForgeryManager - The provided anti-forgery token was meant for a different claims-based user than the current user.
+WARN  2020-08-03 00:59:39,292 [11   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2020-08-03 00:59:39,292 [11   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:6234/api/services/app/user/GetAll
+DEBUG 2020-08-03 01:00:08,181 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"72b93a2c-ee57-45b8-82aa-efe5efad0a28","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-03T01:00:08.1815758+05:30","Properties":{}}
+DEBUG 2020-08-03 01:00:08,202 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 72b93a2c-ee57-45b8-82aa-efe5efad0a28
+WARN  2020-08-03 01:00:15,207 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'Refresh' in localization source 'vino'!
+ERROR 2020-08-03 01:00:21,523 [12   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+DEBUG 2020-08-03 01:00:35,243 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c979eff0-4968-4714-9d43-6e5fe9354d41
+DEBUG 2020-08-03 01:03:10,688 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 72b93a2c-ee57-45b8-82aa-efe5efad0a28
+WARN  2020-08-03 01:03:12,198 [37   ] naries.DictionaryBasedLocalizationSource - Can not find 'Refresh' in localization source 'vino'!
+DEBUG 2020-08-03 01:03:12,741 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9ec8760c-9cf3-4d27-8dac-bacd1eac58a1","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-03T01:03:12.7416381+05:30","Properties":{}}
+DEBUG 2020-08-03 01:03:12,772 [45   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9ec8760c-9cf3-4d27-8dac-bacd1eac58a1
+ERROR 2020-08-03 01:03:14,066 [37   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+ERROR 2020-08-03 01:03:16,613 [5    ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+ERROR 2020-08-03 01:03:21,510 [6    ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+ERROR 2020-08-03 01:03:32,200 [35   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+DEBUG 2020-08-03 01:07:51,580 [58   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9ec8760c-9cf3-4d27-8dac-bacd1eac58a1
+WARN  2020-08-03 01:07:52,365 [55   ] naries.DictionaryBasedLocalizationSource - Can not find 'Refresh' in localization source 'vino'!
+DEBUG 2020-08-03 01:07:53,626 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"727c4a63-614b-4471-b412-3e8deb60357d","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-03T01:07:53.6261838+05:30","Properties":{}}
+DEBUG 2020-08-03 01:07:53,637 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 727c4a63-614b-4471-b412-3e8deb60357d
+ERROR 2020-08-03 01:07:55,352 [35   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+DEBUG 2020-08-03 01:08:01,586 [50   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 727c4a63-614b-4471-b412-3e8deb60357d
+WARN  2020-08-03 01:08:03,288 [43   ] naries.DictionaryBasedLocalizationSource - Can not find 'Refresh' in localization source 'vino'!
+DEBUG 2020-08-03 01:08:03,950 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"fe4420ee-c848-4ce9-b17d-e8fc1ee44875","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-03T01:08:03.9509074+05:30","Properties":{}}
+DEBUG 2020-08-03 01:08:03,966 [60   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: fe4420ee-c848-4ce9-b17d-e8fc1ee44875
+ERROR 2020-08-03 01:08:08,363 [35   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/product/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/product/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+WARN  2020-08-03 01:09:01,088 [41   ] naries.DictionaryBasedLocalizationSource - Can not find 'Refresh' in localization source 'vino'!
+DEBUG 2020-08-03 01:09:01,088 [50   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"327db8b2-cc65-4018-a3f9-7b6cf90972a9","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-03T01:09:01.0880359+05:30","Properties":{}}
+DEBUG 2020-08-03 01:09:01,139 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 327db8b2-cc65-4018-a3f9-7b6cf90972a9
+DEBUG 2020-08-03 01:09:31,014 [50   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: fe4420ee-c848-4ce9-b17d-e8fc1ee44875
+DEBUG 2020-08-03 01:26:12,552 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"651be6a8-24eb-496e-8aa4-22fc67e085a2","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-03T01:26:12.5522346+05:30","Properties":{}}
+DEBUG 2020-08-03 01:26:12,562 [66   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 651be6a8-24eb-496e-8aa4-22fc67e085a2
+WARN  2020-08-03 01:26:16,089 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'Refresh' in localization source 'vino'!
+DEBUG 2020-08-03 01:26:41,813 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 327db8b2-cc65-4018-a3f9-7b6cf90972a9
+DEBUG 2020-08-03 01:26:42,796 [66   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 651be6a8-24eb-496e-8aa4-22fc67e085a2
+DEBUG 2020-08-03 01:26:44,636 [51   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"24f323d7-acc9-45ad-9e17-4b7f23b5be12","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-03T01:26:44.6366424+05:30","Properties":{}}
+DEBUG 2020-08-03 01:26:44,645 [66   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 24f323d7-acc9-45ad-9e17-4b7f23b5be12
+WARN  2020-08-03 01:26:47,586 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'Refresh' in localization source 'vino'!
+DEBUG 2020-08-03 01:27:56,329 [53   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c6df04ad-3e9f-4e9f-97cd-516c769e502b","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-03T01:27:56.3297385+05:30","Properties":{}}
+DEBUG 2020-08-03 01:27:56,338 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c6df04ad-3e9f-4e9f-97cd-516c769e502b
+DEBUG 2020-08-03 01:28:05,586 [66   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"589e9411-7e17-42b4-8853-1edebb645629","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-03T01:28:05.5860961+05:30","Properties":{}}
+DEBUG 2020-08-03 01:28:05,595 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 589e9411-7e17-42b4-8853-1edebb645629
+DEBUG 2020-08-03 01:28:26,936 [66   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 24f323d7-acc9-45ad-9e17-4b7f23b5be12
+DEBUG 2020-08-03 01:28:31,939 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c6df04ad-3e9f-4e9f-97cd-516c769e502b
+DEBUG 2020-08-03 01:28:36,106 [53   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"6e793ba3-1b89-4ca1-aa34-07ee895e3424","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-03T01:28:36.1060691+05:30","Properties":{}}
+DEBUG 2020-08-03 01:28:36,127 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 6e793ba3-1b89-4ca1-aa34-07ee895e3424
+DEBUG 2020-08-03 01:57:00,826 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-08-03 01:57:00,843 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2020-08-03 01:57:00,853 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.Web.vinoWebModule, vino.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 01:57:00,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.vinoDataModule, vino.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 01:57:00,856 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 01:57:00,856 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 01:57:00,856 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 01:57:00,856 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 01:57:00,857 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 01:57:00,857 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 01:57:00,857 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.vinoCoreModule, vino.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 01:57:00,857 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.vinoApplicationModule, vino.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 01:57:00,857 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 01:57:00,858 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.Api.vinoWebApiModule, vino.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 01:57:00,858 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 01:57:00,858 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 01:57:00,858 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 01:57:00,858 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 01:57:00,858 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 01:57:00,864 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2020-08-03 01:57:01,247 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 01:57:01,247 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 01:57:01,247 [1    ] o.Configuration.LanguageManagementConfig - Converted vino (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 01:57:01,248 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 01:57:01,840 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: vino.EntityFramework.vinoDbContext, vino.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 01:57:05,512 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-08-03 01:57:05,598 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-08-03 01:57:05,624 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-08-03 01:57:05,635 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: vino
+DEBUG 2020-08-03 01:57:05,652 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-08-03 01:57:05,867 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-03 01:57:05,954 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2020-08-03 01:57:05,954 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-08-03 01:57:05,962 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-08-03 01:57:05,963 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Users.Dto.CreateUserDto
+DEBUG 2020-08-03 01:57:05,963 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Users.Dto.UpdateUserDto
+DEBUG 2020-08-03 01:57:05,963 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Users.Dto.UserDto
+DEBUG 2020-08-03 01:57:05,963 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Roles.Dto.PermissionDto
+DEBUG 2020-08-03 01:57:05,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-08-03 01:57:05,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.MultiTenancy.Dto.EditTenantDto
+DEBUG 2020-08-03 01:57:05,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.MultiTenancy.Dto.TenantDto
+DEBUG 2020-08-03 01:57:05,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.ByProduct.Dto.ProductListDto
+DEBUG 2020-08-03 01:57:05,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.ByProduct.Dto.CreateProductInput
+DEBUG 2020-08-03 01:57:05,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Web.Models.Account.TenantChangeViewModel
+DEBUG 2020-08-03 01:57:05,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2020-08-03 01:57:09,563 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2020-08-03 01:57:09,566 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2020-08-03 01:57:09,568 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2020-08-03 01:57:09,570 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2020-08-03 01:57:09,572 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2020-08-03 01:57:09,575 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2020-08-03 01:57:16,878 [5    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2020-08-03 01:57:33,112 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"58909ce9-ce10-4bf2-a204-d7b1fa900c81","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-03T01:57:33.1064939+05:30","Properties":{}}
+DEBUG 2020-08-03 01:57:33,154 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 58909ce9-ce10-4bf2-a204-d7b1fa900c81
+DEBUG 2020-08-03 01:58:06,984 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"7d646735-acba-419c-91de-fa5169559609","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-03T01:58:06.9843939+05:30","Properties":{}}
+DEBUG 2020-08-03 01:58:06,995 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 7d646735-acba-419c-91de-fa5169559609
+DEBUG 2020-08-03 01:58:37,911 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 58909ce9-ce10-4bf2-a204-d7b1fa900c81
+DEBUG 2020-08-03 02:07:47,318 [59   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d46b18fb-2a95-4cca-825d-a6943a42a122","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-03T02:07:47.3186266+05:30","Properties":{}}
+DEBUG 2020-08-03 02:07:47,331 [68   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d46b18fb-2a95-4cca-825d-a6943a42a122
+DEBUG 2020-08-03 02:08:18,608 [73   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 7d646735-acba-419c-91de-fa5169559609
+DEBUG 2020-08-03 02:12:13,723 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-08-03 02:12:14,464 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2020-08-03 02:12:14,475 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.Web.vinoWebModule, vino.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:12:14,478 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.vinoDataModule, vino.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:12:14,478 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:12:14,478 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:12:14,478 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:12:14,478 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:12:14,479 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:12:14,479 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:12:14,479 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.vinoCoreModule, vino.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:12:14,480 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.vinoApplicationModule, vino.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:12:14,480 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:12:14,480 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.Api.vinoWebApiModule, vino.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:12:14,480 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:12:14,481 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:12:14,481 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:12:14,481 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:12:14,482 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:12:14,487 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2020-08-03 02:12:15,285 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 02:12:15,285 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 02:12:15,285 [1    ] o.Configuration.LanguageManagementConfig - Converted vino (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 02:12:15,285 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 02:12:15,881 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: vino.EntityFramework.vinoDbContext, vino.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:12:17,125 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-08-03 02:12:17,227 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-08-03 02:12:17,250 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-08-03 02:12:17,259 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: vino
+DEBUG 2020-08-03 02:12:17,270 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-08-03 02:12:17,485 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-03 02:12:17,582 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2020-08-03 02:12:17,582 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-08-03 02:12:17,592 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-08-03 02:12:17,594 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Users.Dto.CreateUserDto
+DEBUG 2020-08-03 02:12:17,594 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Users.Dto.UpdateUserDto
+DEBUG 2020-08-03 02:12:17,595 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Users.Dto.UserDto
+DEBUG 2020-08-03 02:12:17,595 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Roles.Dto.PermissionDto
+DEBUG 2020-08-03 02:12:17,595 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-08-03 02:12:17,596 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.MultiTenancy.Dto.EditTenantDto
+DEBUG 2020-08-03 02:12:17,596 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.MultiTenancy.Dto.TenantDto
+DEBUG 2020-08-03 02:12:17,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.ByProduct.Dto.ProductListDto
+DEBUG 2020-08-03 02:12:17,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.ByProduct.Dto.CreateProductInput
+DEBUG 2020-08-03 02:12:17,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Web.Models.Account.TenantChangeViewModel
+DEBUG 2020-08-03 02:12:17,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2020-08-03 02:12:21,600 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2020-08-03 02:12:21,601 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2020-08-03 02:12:21,602 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2020-08-03 02:12:21,603 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2020-08-03 02:12:21,604 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2020-08-03 02:12:21,605 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2020-08-03 02:12:38,732 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d53bbe66-ad86-46e4-b7f6-506fbec38d1b","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-03T02:12:38.7197056+05:30","Properties":{}}
+DEBUG 2020-08-03 02:12:38,805 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d53bbe66-ad86-46e4-b7f6-506fbec38d1b
+DEBUG 2020-08-03 02:19:01,594 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-08-03 02:19:01,612 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2020-08-03 02:19:01,619 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.Web.vinoWebModule, vino.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:19:01,621 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.vinoDataModule, vino.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:19:01,621 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:19:01,621 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:19:01,621 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:19:01,621 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:19:01,622 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:19:01,622 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:19:01,622 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.vinoCoreModule, vino.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:19:01,622 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.vinoApplicationModule, vino.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:19:01,622 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:19:01,622 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vino.Api.vinoWebApiModule, vino.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:19:01,623 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:19:01,623 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:19:01,623 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:19:01,623 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:19:01,623 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:19:01,627 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2020-08-03 02:19:01,926 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 02:19:01,926 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 02:19:01,926 [1    ] o.Configuration.LanguageManagementConfig - Converted vino (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 02:19:01,926 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-03 02:19:02,377 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: vino.EntityFramework.vinoDbContext, vino.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-03 02:19:05,643 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-08-03 02:19:05,707 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-08-03 02:19:05,728 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-08-03 02:19:05,736 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: vino
+DEBUG 2020-08-03 02:19:05,745 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-08-03 02:19:05,950 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-03 02:19:06,017 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2020-08-03 02:19:06,017 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-08-03 02:19:06,023 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-08-03 02:19:06,023 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Users.Dto.CreateUserDto
+DEBUG 2020-08-03 02:19:06,024 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Users.Dto.UpdateUserDto
+DEBUG 2020-08-03 02:19:06,024 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Users.Dto.UserDto
+DEBUG 2020-08-03 02:19:06,024 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Roles.Dto.PermissionDto
+DEBUG 2020-08-03 02:19:06,024 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-08-03 02:19:06,024 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.MultiTenancy.Dto.EditTenantDto
+DEBUG 2020-08-03 02:19:06,024 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.MultiTenancy.Dto.TenantDto
+DEBUG 2020-08-03 02:19:06,024 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.ByProduct.Dto.ProductListDto
+DEBUG 2020-08-03 02:19:06,025 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.ByProduct.Dto.CreateProductInput
+DEBUG 2020-08-03 02:19:06,025 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Web.Models.Account.TenantChangeViewModel
+DEBUG 2020-08-03 02:19:06,025 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vino.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2020-08-03 02:19:09,185 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2020-08-03 02:19:09,186 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2020-08-03 02:19:09,187 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2020-08-03 02:19:09,188 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2020-08-03 02:19:09,189 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2020-08-03 02:19:09,190 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2020-08-03 02:19:09,191 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'vino.ByProduct.IProductAppService' with service name 'app/product'.
+DEBUG 2020-08-03 02:19:22,699 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"57774c52-c93f-4fec-8019-d85742fb6f6f","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-03T02:19:22.6931424+05:30","Properties":{}}
+DEBUG 2020-08-03 02:19:22,743 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 57774c52-c93f-4fec-8019-d85742fb6f6f
+DEBUG 2020-08-03 02:19:58,855 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"069db4b1-150a-4de8-bfce-3c3803edc323","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-03T02:19:58.8557115+05:30","Properties":{}}
+DEBUG 2020-08-03 02:19:58,874 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 069db4b1-150a-4de8-bfce-3c3803edc323
+DEBUG 2020-08-03 02:20:32,035 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 57774c52-c93f-4fec-8019-d85742fb6f6f
+DEBUG 2020-08-03 02:22:39,527 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 069db4b1-150a-4de8-bfce-3c3803edc323
+DEBUG 2020-08-03 02:22:44,704 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ff4eec1c-b85a-4c54-a7f5-12832c23dac0","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-03T02:22:44.7042286+05:30","Properties":{}}
+DEBUG 2020-08-03 02:22:44,712 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ff4eec1c-b85a-4c54-a7f5-12832c23dac0
+DEBUG 2020-08-03 02:23:21,187 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"dd34f92d-66d3-4499-a5c2-f9b07fe885c5","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-03T02:23:21.1873671+05:30","Properties":{}}
+DEBUG 2020-08-03 02:23:25,260 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: dd34f92d-66d3-4499-a5c2-f9b07fe885c5
+DEBUG 2020-08-03 02:23:50,279 [34   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ff4eec1c-b85a-4c54-a7f5-12832c23dac0
+DEBUG 2020-08-03 02:24:14,661 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"4e5bfbde-e16f-4508-ad2a-2f4204fc4462","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-03T02:24:14.6613775+05:30","Properties":{}}
+DEBUG 2020-08-03 02:24:14,705 [48   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 4e5bfbde-e16f-4508-ad2a-2f4204fc4462
